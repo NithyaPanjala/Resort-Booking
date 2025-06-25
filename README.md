@@ -1,5 +1,6 @@
 # Resort-Booking
-> 🚀 **Live Demo**: [View Resume]([https://nithyapanjala.github.io/Resort-Booking/])
+🚀 **Live Demo**: [View][https://nithyapanjala.github.io/Resort-Booking/]
+
 This is a simple static Resort Booking Application built using only HTML. The project simulates a resort's online booking interface where users can view resort details and fill out a booking form.
 Key features include:
 A clean and structured layout with sections for resort overview, room types, and amenities
