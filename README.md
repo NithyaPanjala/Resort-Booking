@@ -6,3 +6,4 @@ An HTML form to capture booking details like name, contact, check-in/check-out d
 Use of HTML5 elements like (<form> , <section> , <input> , <textarea> , and <select>) for better structure and accessibility
 Designed as a frontend-only project — no CSS, JavaScript, or backend integration involved
 This project demonstrates a basic understanding of HTML structure, semantic tags, and form creation for user input collection in a real-world context.
+Live demo: https://nithyapanjala.github.io/Resort-Booking/
