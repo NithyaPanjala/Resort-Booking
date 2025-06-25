@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>Resort Booking</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <table width="100%">
+          <tr>
+            <td width="20%">
+              <center>
+                <img
+                  src="./Assets/images/resort-island-logo-vector.jpg"
+                  alt=" loding"
+                  width="200px"
+                />
+              </center>
+            </td>
+            <td align="center" width="15%">
+              <hr />
+              <a href="./Home.html">Home</a>
+              <hr />
+            </td>
+            <td align="center" width="15%">
+              <hr />
+              <a href="./Gallery.html">Gallery</a>
+              <hr />
+            </td>
+            <td align="center" width="15%">
+              <hr />
+              <a href="./Services.html">Service</a>
+              <hr />
+            </td>
+            <td align="center" width="15%">
+              <hr />
+              <a href="./Registration.html">Registration</a>
+              <hr />
+            </td>
+            <td width="20%"></td>
+          </tr>
+        </table>
+      </nav>
+    </header>
+    <br /><br />
+    <main>
+      <center>
+        <table
+          width="70%"
+          border="1"
+          style="border-collapse: collapse"
+          cellpadding="10%"
+        >
+          <tr>
+            <td>
+              <h2 align="center"><strong>Book Your Dream Room</strong></h2>
+              <form action="#">
+                <fieldset>
+                  <legend>
+                    <h4>Guest Contact Information</h4>
+                  </legend>
+                  <table width="100%" cellspacing="5%" cellpadding="10%">
+                    <tr>
+                      <td>
+                        <label for="Title">Title:</label>
+                      </td>
+                      <td>
+                        <select name="" id="Title">
+                          <option value="Select">Select</option>
+                          <option value="ac">AC rooms</option>
+                          <option value="nonac">Non AC Rooms</option>
+                        </select>
+                      </td>
+                      <td><label for="fullname">Full Name:</label></td>
+                      <td>
+                        <input
+                          type="text"
+                          name=""
+                          id="fullname"
+                          placeholder="Full Name Enter Here"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="phno">Phone Number:</label></td>
+                      <td>
+                        <input
+                          type="tel"
+                          name=""
+                          id="phno"
+                          pattern="[0-9]{10}"
+                          placeholder="9124567890"
+                        />
+                      </td>
+                      <td><label for="email">E-mail:</label></td>
+                      <td><input type="email" name="" id="email" /></td>
+                    </tr>
+                    <tr>
+                      <td><label for="dob">Date of Birth:</label></td>
+                      <td><input type="date" name="" id="dob" /></td>
+                      <td><label for="customer_code">Customer Code:</label></td>
+                      <td><input type="tel" name="" id="customer_code" /></td>
+                    </tr>
+                    <tr>
+                      <td><label for="addrs">Address</label></td>
+                      <td>
+                        <input
+                          type="text"
+                          name=""
+                          id="street_addrs"
+                          placeholder="Street Address"
+                        />
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          name=""
+                          id="street_addrs_line2"
+                          placeholder="Street Address Line 2"
+                        />
+                      </td>
+                      <td>
+                        <input
+                          type="text"
+                          name=""
+                          id="landmark"
+                          placeholder="Landmark"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </fieldset>
+              </form>
+              <br /><br />
+              <form action="#">
+                <fieldset>
+                  <legend><h4>Reservation Details</h4></legend>
+                  <table width="100%" cellspacing="5%" cellpadding="10%">
+                    <tr>
+                      <td><label for="arival_date">Arrival Date:</label></td>
+                      <td><input type="date" name="" id="arival_date" /></td>
+                      <td>
+                        <label for="departure_date">Departure Date</label>
+                      </td>
+                      <td><input type="date" name="" id="departure_date" /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="no_of_adults">Number of Adult's:</label>
+                      </td>
+                      <td><input type="number" name="" id="no_of_adults" /></td>
+                      <td>
+                        <label for="no_of_children"
+                          >Number of Children's:</label
+                        >
+                      </td>
+                      <td>
+                        <input type="number" name="" id="no_of_children" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="room_type">Room Type:</label></td>
+                      <td>
+                        <select name="" id="room_type">
+                          <option value="Please Select">Please Select</option>
+                          <option value="ac_room">AC rooms</option>
+                          <option value="nonac_room">Non AC Rooms</option>
+                        </select>
+                      </td>
+                      <td><label for="room_no">Room Number:</label></td>
+                      <td><input type="number" name="" id="room_no" /></td>
+                    </tr>
+                    <tr>
+                      <td><label for="extra_bed">Extra Bed:</label></td>
+                      <td>
+                        <input type="radio" name="" id="extra_bed" /><label
+                          for=""
+                          >Yes</label
+                        ><input type="radio" name="" id="extra_bed" /><label
+                          for=""
+                          >No</label
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="request">Any addition request:</label>
+                      </td>
+                      <td colspan="3">
+                        <textarea
+                          name=""
+                          id="request"
+                          placeholder="Type here..."
+                          rows="3"
+                          cols="80"
+                        ></textarea>
+                      </td>
+                    </tr>
+                    <tr align="center">
+                      <td colspan="4">
+                        <input type="submit" value="Submit" />
+                      </td>
+                    </tr>
+                  </table>
+                </fieldset>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </main>
+    <br /><br />
+    <footer>
+      <hr width="100%" />
+      <br /><br />
+      <center>
+        <table border="1" style="border-collapse: collapse" width="70%">
+          <tr>
+            <td width="30%">
+              <img
+                src="./Assets/images/resort-island-logo-vector.jpg"
+                alt="Loading"
+                width="100%"
+              />
+            </td>
+
+            <td cellpadding="10%" width="70%">
+              <center>
+                <table width="95%" cellspacing="10%">
+                  <tr>
+                    <td>
+                      <h4>Contact Us</h4>
+                      <p>Email:contact@sunnybeachresort.com</p>
+                      <p>Phone:+1(234)567-8900</p>
+                      <p>Address: 123 Paradise Lane,Beach City,CA90210</p>
+                    </td>
+                    <td>
+                      <h4>Sunny Beach Resort</h4>
+                      <p>Relax,Rejuvenate and Reconnect</p>
+                      <p>Perfect Place for Your Comfort</p>
+                    </td>
+                    <td>
+                      <h4>Quick Links</h4>
+
+                      <table width="100%">
+                        <tr>
+                          <td><a href="./Home.html">Home</a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="./Gallery.html">Gallery</a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="./Services.html">Services</a></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a href="./Registration.html">Registration</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center">
+                      <p>
+                        &copy; Made by Nithya Vaibhavi Panjala | All Rights
+                        Reserved to @PNV
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </footer>
+  </body>
+</html>
